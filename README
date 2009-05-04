@@ -3,3 +3,5 @@
 A simple blog post can cover the simple common case of AAR usage. In this series of repos I thought I'd cover some more advanced usage. In this case I'm showing how you could handle associations and revise them along with another model.
 
 In this project I'm demonstrating a very simple structure. Basically with have Posts which can have many Links. Any time a post is revised, it's current links should be stored with that revision. Also, we're going to count adding a link as a revision to a post.
+
+All the code is in app/models/*
